@@ -70,3 +70,5 @@ rsvg::rsvg_pdf(
   charToRaw(svg_code),
   "C:/Users/gacn0003/Downloads/R_Code/smsf_flowchart.pdf"
 )
+
+print(1+1)
