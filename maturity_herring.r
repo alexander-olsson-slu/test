@@ -8,7 +8,7 @@ library(dplyr)
 
 ## Working directory
 
-dir <- "C:/R_Analyser/Herring_maturity/fromMalin"
+dir <- "C:/R_Analyser/Herring_maturity/from_Malin"
 setwd(dir)
 
 #### --- Load data with maturity information and combine maturity scales to one SMSF scale -----####
@@ -17,7 +17,7 @@ setwd(dir)
 
 herr_type2 <- fread("typ_2_Commercial_samples_s_without_st.csv") # Bias 1995-2024
 herr_type3 <- fread("typ_3_2020-2024 Commercial_samples_s_without_st.csv") # Spras 2020-2024
-herr_type4 <- fread("typ_4_Commercial_samples_s_without_st.csv") # Commercial 1995-2021
+herr_type4 <- fread("typ_4_Commercial_samples_s_without_st.csv") # Commercial 1995-2024
 herr_type7 <- fread("typ_7_Commercial_samples_s_without_st.csv") # Provtagning pelagisk fisk 2020-2024
 herr_type8 <- fread("typ_8_Commercial_samples_s_without_st.csv") # Industrifisk 1993-2020
 herr_type16 <- fread("typ_16_Commercial_samples_s_without_st.csv")# RU-SPRAS 2024
