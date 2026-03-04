@@ -8,7 +8,7 @@ library(dplyr)
 
 ## Working directory
 
-dir <- "C:/R_Analyser/Herring_maturity/from_Malin"
+dir <- "C:/R_Analyser/Herring_maturity/fromMalin"
 setwd(dir)
 
 #### --- Load data with maturity information and combine maturity scales to one SMSF scale -----####
