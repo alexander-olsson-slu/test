@@ -26,7 +26,7 @@ herr_type16 <- fread("typ_16_Commercial_samples_s_without_st.csv")# RU-SPRAS 202
 dim(herr_type2)
 dim(herr_type8)
 dim(herr_type16)
-
+dim(herr_type17)
 ## Combine the data tables
 herr_data <- rbind(herr_type2, herr_type3, herr_type4, herr_type7, herr_type8, herr_type16)
 
